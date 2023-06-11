@@ -1,5 +1,12 @@
 * {
     background-color: rgb(236, 230, 230);
+    color: rgb(212, 146, 48);
+}   
+
+h1{
+    color: rgb(212, 146, 48);
+    text-transform:uppercase;
+    font-size: 50px;
 }
 
 img {
