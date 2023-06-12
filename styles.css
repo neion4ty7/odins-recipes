@@ -6,7 +6,7 @@
 
 h1{
     color: rgb(212, 146, 48);
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-size: 50px;
     text-align: center;
 }
@@ -14,7 +14,7 @@ h1{
 img {
     height: auto;
     width: 200px;   
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,8 +22,17 @@ img {
 
 
 ul {
-    font-size: 30px;
+    
     text-align: center;
     list-style-type: none;
     padding:0%;
+    
+}
+
+li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    
 }
