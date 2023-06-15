@@ -7,13 +7,13 @@
 h1{
     color: rgb(212, 146, 48);
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
 }
 
 img {
     height: auto;
-    width: 200px;   
+    width: 400px;   
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +32,6 @@ ul {
 li{
     display: inline-block;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 20px;
-    
 }
