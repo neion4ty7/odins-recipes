@@ -4,6 +4,15 @@
     font-family: 'Times New Roman', Times, serif;
 }   
 
+a{ 
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 h1{
     color: rgb(212, 146, 48);
     text-transform: uppercase;
@@ -26,7 +35,8 @@ ul {
     text-align: center;
     list-style-type: none;
     padding:0%;
-    
+    border-style: solid;
+    background-color: blanchedalmond;
 }
 
 li{
@@ -34,4 +44,6 @@ li{
     font-weight: bold;
     font-size: 50px;
     margin-left: 20px;
+    
+
 }
