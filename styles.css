@@ -32,18 +32,21 @@ img {
 
 ul {
     
-    text-align: center;
+    display: flex;
     list-style-type: none;
     padding:0%;
     border-style: solid;
     background-color: blanchedalmond;
+    justify-content: center;
 }
 
 li{
-    display: inline-block;
+    width: 215px;
     font-weight: bold;
     font-size: 50px;
-    margin-left: 20px;
-    
-
+    flex: initial;
+    border-left: 4px solid rgb(212, 146, 48);
+    border-right: 4px solid rgb(212, 146, 48);
+    text-align: center;
+    background-color: blanchedalmond;  
 }
