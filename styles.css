@@ -28,8 +28,6 @@ img {
     margin-right: auto;
 }
 
-
-
 ul {
     
     display: flex;
@@ -37,16 +35,17 @@ ul {
     padding:0%;
     border-style: solid;
     background-color: blanchedalmond;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-li{
+li { 
     width: 215px;
     font-weight: bold;
     font-size: 50px;
     flex: initial;
-    border-left: 4px solid rgb(212, 146, 48);
-    border-right: 4px solid rgb(212, 146, 48);
+    /* border-left: 4px solid rgb(212, 146, 48); */ 
+    /* border-right: 4px solid rgb(212, 146, 48); */
+    /* defunct for now, might use again later */
     text-align: center;
     background-color: blanchedalmond;  
 }
